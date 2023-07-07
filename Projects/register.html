@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration For Marriage</title>
+    <link rel="stylesheet" href="styling2.css">
+</head>
+<body>
+  <h1>Registration Form</h1>
+  <form action="result.html" method="post">
+    <h3>All Details are Mendatory</h3>
+    <label for="n">Enter Name</label>
+    <input id="n" type="text" name="" placeholder="Enter name"required><br>
+    <lable for="e">Enter Email</lable>
+    <input id="e" type="email" name="" placeholder="Enter Email"required><br>
+    <lable for="age">Enter Age</lable>
+    <input id="age" type="text" name="" placeholder="Enter Age"required><br>
+
+    <h3>Are you interested in dating:</h3>
+    <label for="id">Yes</label>
+    <input id="id" type="radio" name=date value="Yes">
+    <label for="d">No</label>
+    <input id="d" type="radio" name=date value="No">
+    <h3>Your Expectation like:</h3>
+    <select name="preference">
+        <option value="kk">Katrina Kaif</option>
+        <option value="kp">Karina Kapoor</option>
+        <option value="sl">Sunny</option>
+        <option value="sg">Selena gomez</option>
+    </select>
+    <h3>How many Marriage you want:</h3>
+    <select>
+        <option value="any">Select any preference</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="more">more than two</option>
+    </select>
+    <h3>Are you heavy Alcoholic:</h3>
+      <input type="checkbox" name='p' value="Yes">Yes
+      <input type="checkbox" name='p' value="No">No
+      <input type="checkbox" name='p' value="Weeks">Only weeks
+    <h3>Your preference and Extra Information:</h3>
+    <textarea name="feedback" rows="8" cols="80"></textarea><br>
+    <input type="submit" value="Submit">
+
+  </form>
+</body>
+</html>
